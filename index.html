@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>Barcode Comparison</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	
+	<body>
+		<h1>Compare Barcodes</h1>
+					
+		<p class="Intro">Compare barcodes below using a USB barcode reader. If you don't have one, then
+			type the barcode manually in each box, pressing Enter/Return after each time.
+			Don't use TAB or mouse to get to the next box!</p>
+
+		<form>
+			<label>
+				<div>First Barcode</div>
+				<input type="text" name="code1" id="barcode1" class="barcodeInput" autofocus>
+			</label>
+			<label>
+				<div>Second Barcode</div>
+				<input type="text" name="code2" id="barcode2" class="barcodeInput">
+			</label>
+		</form>
+
+        <div id="Instructions" class="Message">.</div>
+	</body>
+</html>

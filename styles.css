@@ -1,0 +1,10 @@
+body { font-family: Helvetica, Arial, sans-serif; }
+h1 { text-transform: uppercase; color: #005366; }
+label { display: block; margin-bottom: 0.4em; }
+label div { display: inline-block; width: 8em; }
+label input[type="text"] { padding: 0.5em; border: 1px solid #0093b3; }
+.Intro { font-size: 0.8em; padding-bottom: 1em; }
+.Message { border: 1px solid #aaa; border-radius: 0.5em; padding: 0.5em; }
+.StatusDefault { background-color: #fff; color: #000; transition: all 1s; }
+.StatusMatch { background-color: #0c0; color: #fff; transition: all 1s; }
+.StatusError { background-color: #f00; color: #fff; transition: all 1s; }
